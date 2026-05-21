@@ -1,0 +1,26 @@
+.el-card__header {
+    padding: 8px 8px !important; 
+}
+/* .clearfix1{font-size: 14px;padding-left: 0px;padding-bottom: 5px ;background-image: url();}
+.clearfix{font-size: 13px;font-weight: 10px;padding-bottom: 5px ;background-image:url()} */
+/* .el-col:hover{border: 1px solid #05e7e8;} */
+.clearfix a{color:#808080;font-size: 15px;padding-left: 40px;line-height: 30px;}
+.clearfix span{position: relative;left:10px; top: 5px;} 
+.clearfix a:hover{color: #21e787;}
+.clearfix img{height: 30px;position: absolute;top: 3px;}
+
+/* .clearfix tableYear{padding-top: 5px ;} */
+.el-row a1{color: #05e7e8; font-weight:bold,}
+
+.chart-wrapper {
+    background: #fff;
+    padding: 5px 5px 0;
+    margin-bottom: 10px;
+}
+.el-col:hover {transform: scale(1.04,1.04) .4s;cursor: pointer;}
+.el-row{padding-bottom:8px; font-size: 14px; text-align: left; }
+.el-row span1{margin-left: 22px;}
+.el-row .el-col{font-size: 13px; }
+.el-table .label{color: #05e7e8;}
+.el-table .cell{text-align: center;}
+.el-table th>.cell{ font-size: 13px;font-weight:bold}

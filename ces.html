@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+<script>
+    var str = ['0', '1', '2', ];
+    function generateMixed(n) {
+        var res = "";
+        for (var i = 0; i < n; i++) {
+            var id = Math.ceil(Math.random() * 2);
+            res += str[id];
+        }
+        return res;
+    }
+    alert(generateMixed(6));
+</script>

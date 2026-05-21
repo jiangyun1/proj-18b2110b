@@ -1,0 +1,46 @@
+{
+  "name": "hrsy",
+  "version": "4.2.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm run serve",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@d2-projects/d2-crud": "^2.1.2",
+    "@d2-projects/vue-table-export": "^1.0.1",
+    "@d2-projects/vue-table-import": "^1.0.0",
+    "@riophae/vue-treeselect": "^0.4.0",
+    "axios": "^0.18.0",
+    "babel-polyfill": "^6.26.0",
+    "e-icon-picker": "^1.0.7",
+    "echarts": "^4.8.0",
+    "echarts-liquidfill": "^2.0.6",
+    "element-ui": "^2.13.2",
+    "js-cookie": "^2.2.1",
+    "mavon-editor": "^2.6.17",
+    "v-charts": "^1.19.0",
+    "vue": "^2.6.10",
+    "vue-cropperjs": "^3.0.0",
+    "vue-flip-page": "^1.0.7",
+    "vue-fontawesome-elementui-icon-picker": "^0.1.9",
+    "vue-grid-layout": "^2.3.8",
+    "vue-i18n": "^8.10.0",
+    "vue-pdf": "^4.2.0",
+    "vue-quill-editor": "^3.0.6",
+    "vue-router": "^3.0.3",
+    "vue-schart": "^2.0.0",
+    "vue-seamless-scroll": "^1.1.21",
+    "vuedraggable": "^2.17.0",
+    "vuex": "^3.5.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.9.0",
+    "@vue/cli-service": "^3.9.0",
+    "node-sass": "^4.14.1",
+    "sass": "^1.26.11",
+    "sass-loader": "^7.3.1",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
